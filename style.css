@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
+#wrapper {
+    width: 100%;
+}
+.header {
+    margin: 10px 0px;
+}
+h1, h2 {
+    padding: 5px;
+    margin: 5px;
+}
+p, a, img, .tiles {
+    background: transparent;
+}
+.container {
+    background: radial-gradient(#6f5964, #1f0f13);
+    margin: 5px;
+    padding: 20px;
+}
+.profile {
+    background-color: transparent;
+}
+#p_pic {
+    background-color: #C0C0C0;
+    padding: 5px;
+}
+.about {
+    background: linear-gradient(to bottom right, #fefefe, #dbcbda);
+}
+.about p {
+    padding: 0px 10px;
+}
+.about a {
+    padding: 10px;
+}
+.about h3 {
+    margin-bottom: 10px;
+}
+h3 {
+    background: linear-gradient(#bdbdbf, #888694, #bdbdbf);
+    background-color: #9C9BA4;
+    color: white;
+    font-family: sans-serif;
+    font-size: 22px;
+    padding: 10px;
+}
+h4 {
+    background-color: #9C9BA4;
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+.content {
+    background: linear-gradient(to bottom right, #fefefe, #dbcbda);
+    display: inline-block;
+    vertical-align: top;
+}
+.content_pic {
+    width: 100%;
+    height: auto;
+}
+.content p {
+    font-size: 15px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.tiles img {
+    width: 15%;
+    height: auto;
+    margin: 5px;
+    display: inline-block;
+}
+button {
+    background-color: #407D61;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+    padding: 5px;
+}
+.footer {
+    padding: 5px 0px;
+}
+.footer p {
+    text-align: center;
+    font-size: 18px;
+    margin: 5px 0px;
+}
+.s_contact {
+    margin: 10px auto;
+    width: 40%;
+}
+.footer img {
+    width: 5%;
+    height: auto;
+    text-align: center;
+}
+.footer a {
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: top;
+}
+
+@media only screen and (max-width: 570px){
+    h1 {
+        width: 50%;
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+    }
+    h2 {
+        width: 80%;
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+    }
+    #p_pic {
+        width: 75%;
+        height: auto;
+        margin: 1% auto;
+        display: block;
+    }
+    .about {
+        width: 100%;
+        height: auto;
+        margin: 1% auto;
+        padding-bottom: 15px;
+        display: block;
+    }
+    .about p, .about a {
+        font-size: 12px;
+    }
+    .content {
+        width: 98%;
+        height: 475px;
+        margin: 1%;
+    }
+    .content_top {
+        height: 400px;
+    }
+    .content_top p {
+        font-size: 16px;
+    }
+    .content h4, .tiles {
+        display: none;
+    }
+}
+@media only screen and (min-width: 571px){
+    h1 {
+        display: inline;
+    }
+    h2 {
+        display: inline;
+        float: right;
+    }
+    #p_pic {
+        width: 75%;
+        height: auto;
+        margin: 1% auto;
+        display: block;
+    }
+    .about {
+        width: 100%;
+        height: auto;
+        margin: 1% auto;
+        padding-bottom: 15px;
+        display: block;
+    }
+    .about p, .about a {
+        font-size: 26px;
+    }
+    .content {
+        width: 30%;
+        height: 650px;
+        margin: 1%;
+    }
+    .content_top {
+        height: 400px;
+    }
+    .content_top p {
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width: 1024px){
+    h1 {
+        display: inline;
+    }
+    h2 {
+        display: inline;
+        float: right;
+    }
+    #p_pic {
+        width: 40%;
+        height: auto;
+        margin: 1%;
+        display: inline-block;
+    }
+    .about {
+        vertical-align: top;
+        width: 54%;
+        height: auto;
+        margin: 1%;
+        padding-bottom: 15px;
+        display: inline-block;
+    }
+    .about p, .about a {
+        font-size: 18px;
+    }
+    .content {
+        width: 31%;
+        height: 750px;
+        margin: 1%;
+    }
+    .content_top {
+        height: 450px;
+    }
+    .content_top p {
+        font-size: 16px;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .about p, .about a {
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 1300px){
+    .about p, .about a {
+        font-size: 22px;
+    }
+}
+@media only screen and (min-width: 1400px){
+    .about p, .about a {
+        font-size: 24px;
+    }
+}
+@media only screen and (min-width: 1450px){
+    .about p, .about a {
+        font-size: 26px;
+    }
+}
+@media only screen and (min-width: 1500px){
+    .about p, .about a {
+        font-size: 28px;
+    }
+}
